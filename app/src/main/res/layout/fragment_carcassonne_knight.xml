@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+        >
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agricolaSubItemLabel"
+            android:id="@+id/carcassonneSubKnightSpacesButton"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:id="@+id/carcassonneKnightSpacesValue"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/carcassonneSubKnightSpacesButton"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agricolaAddItemLabel"
+            android:id="@+id/carcassonneAddKnightSpaceButton"
+            android:layout_toEndOf="@+id/carcassonneKnightSpacesValue"/>
+        <TextView
+            android:id="@+id/agricolaFieldResourceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/carcassonneKnightSpacesName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/carcassonneAddKnightSpaceButton"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:id="@+id/carcassonneKnightScore"/>
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+        >
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agricolaSubItemLabel"
+            android:id="@+id/carcassonneSubKnightBannersButton"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:id="@+id/carcassonneKnightBannersValue"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/carcassonneSubKnightBannersButton"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agricolaAddItemLabel"
+            android:id="@+id/carcassonneAddKnightBannersButton"
+            android:layout_toEndOf="@+id/carcassonneKnightBannersValue"/>
+        <TextView
+            android:id="@+id/agricolaKnightBannersResourceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/carcassonneKnightBannersLabel"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/carcassonneAddKnightBannersButton"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/carcassonneKnightHasCath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/carcassonneKnightHasCathLabel"
+            android:layout_toEndOf="@+id/carcassonneKnightHasCath"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/carcassonneKnightEndGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/carcassonneEndGameLabel"
+            android:layout_toEndOf="@+id/carcassonneKnightEndGame"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/carcassonneSubmitKnightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/carcassonneKnightSubmitButtonLabel"/>
+
+    </LinearLayout>
+
+</LinearLayout>

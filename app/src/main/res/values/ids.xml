@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Score Item Tags For Agricola Buttons-->
+    <item type="id" name="AGRICOLA_SCORE_ITEM_TAG" />
+    <item type="id" name="AGRICOLA_SCORE_ITEM_ACTION" />
+</resources>

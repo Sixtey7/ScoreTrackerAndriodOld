@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--General-->
+    <string name="app_name">ScoreTracker</string>
+    <string name="totalScore">Total Score</string>
+    <string name="points">Points</string>
+    <string name="pointsLabel">Points:</string>
+
+    <string name="defaultYesLabel">Aye!</string>
+    <string name="defaultNoLabel">Nay</string>
+
+    <!-- Form Stuff -->
+    <string name="totalScoreLabel">Total Score:</string>
+
+    <!-- Select Game Fragment -->
+    <string name="selectGameFragmentName">Would you like to play a game?</string>
+
+    <string name="selectGameFragmentSecondGameSelectedWarningTitle">Void Session?</string>
+    <string name="selectGameFragmentSecondGameSelectedWarningText">Warning: You Currently Have a Game Session Active For a Different Game\n\nWould you like to abandon that session and start a new one?</string>
+
+    <!--Android Default - will eventually not be needed-->
+    <string name="action_settings">Settings</string>
+
+    <!-- DialogFactory -->
+    <string name="dialogFactoryErrorDialogTitle">Sorry, an error occurred...</string>
+    <string name="dialogFactoryErrorDialogDefaultText">So sorry, an error occurred</string>
+
+    <!-- User Name Prompt -->
+    <string name="dialogFactoryUsernamePromptTitle">Please Enter a User Name</string>
+    <string name="dialogFactoryUsernamePromptMessage">Please enter a name for the new user</string>
+    <string name="dialogFactoryUsernamePromptAddLabel">Add User</string>
+    <string name="dialogFactoryUsernamePromptCancelLabel">Cancel</string>
+
+    <!-- Select User -->
+    <string name="selectUserFragmentName">Select User</string>
+    <string name="selectUserAddUserButtonText">Add User to Game</string>
+
+    <!--Agricola-->
+        <!--General-->
+        <string name="agricolaGameName">Agricola</string>
+        <string name="agricolaAddItemLabel">&gt;</string>
+        <string name="agricolaSubItemLabel">&lt;</string>
+
+        <!--Resource Names-->
+        <string name="agricolaFieldResource">Field</string>
+        <string name="agricolaFieldResourcePlural">Fields</string>
+
+        <string name="agricolaPastureResource">Pasture</string>
+        <string name="agricolaPastureResourcePlural">Pastures</string>
+
+        <string name="agricolaGrainResource">Grain</string>
+        <string name="agricolaGrainResourcePlural">Grain</string>
+
+        <string name="agricolaVegetableResource">Vegetables</string>
+        <string name="agricolaVegetableResourcePlural">Vegetables</string>
+
+        <string name="agricolaSheepResource">Sheep</string>
+        <string name="agricolaSheepResourcePlural">Sheep</string>
+
+        <string name="agricolaBoarResource">Wild Boar</string>
+        <string name="agricolaBoarResourcePlural">Wild Boars</string>
+
+        <string name="agricolaCowResource">Cow</string>
+        <string name="agricolaCowResourcePlural">Cows</string>
+
+        <string name="agricolaEmptySpaceResource">Empty Space</string>
+        <string name="agricolaEmptySpaceResourcePlural">Empty Spaces</string>
+
+        <string name="agricolaFencedStableResource">Fenced Stable</string>
+        <string name="agricolaFencedStableResourcePlural">Fenced Stables</string>
+
+        <string name="agricolaClayRoomResource">Clay Room</string>
+        <string name="agricolaClayRoomResourcePlural">Clay Rooms</string>
+
+        <string name="agricolaStoneRoomResource">Stone Room</string>
+        <string name="agricolaStoneRoomResourcePlural">Stone Rooms</string>
+
+        <string name="agricolaFamilyMemberResource">Family Member</string>
+        <string name="agricolaFamilyMemberResourcePlural">Family Members</string>
+
+        <string name="agricolaCardPointResource">Point for Cards</string>
+        <string name="agricolaCardPointResourcePlural">Points for Cards</string>
+
+        <string name="agricolaBonusPointResource">Bonus Point</string>
+        <string name="agricolaBonusPointResourcePlural">Bonus Points</string>
+
+    <!-- Carcassonne -->
+        <!-- General -->
+        <string name="carcassonneGameName">Carcassonne</string>
+
+        <!-- UI Elements -->
+            <!-- Farmer -->
+            <string name="carcassonneFarmerCityName">Cities</string>
+            <string name="carcassonneFarmerSubmitButtonLabel">FARM!</string>
+
+            <!--Thief -->
+            <string name="carcassonneThiefSpacesName">Spaces</string>
+            <string name="carcassonneThiefHasLakeLabel">Has Lake?</string>
+            <string name="carcassonneThiefSubmitButtonLabel">THIEF!</string>
+
+            <!-- Knight -->
+            <string name="carcassonneKnightSpacesName">Spaces</string>
+            <string name="carcassonneKnightBannersLabel">Banners</string>
+            <string name="carcassonneKnightHasCathLabel">Has Cath?</string>
+            <string name="carcassonneKnightSubmitButtonLabel">CONQUER!</string>
+
+            <!-- Monk -->
+            <string name="carcassonneMonkSpacesName">Spaces</string>
+            <string name="carcassonneMonkSubmitButtonLabel">MONK!</string>
+
+            <!-- General -->
+            <string name="carcassonneEndGameLabel">End of Game?</string>
+
+        <!-- Carcassonne Fragment -->
+        <string name="carcassonneFragmentName">Carcassonne Actions</string>
+        <string name="carcassonneAddUserActionButtonLabel">Add Action</string>
+
+        <!-- User Action Fragments -->
+        <string name="carcassonneAddFarmerFragmentName">Farming...</string>
+        <string name="carcassonneAddThiefFragmentName">Thiefing...</string>
+        <string name="carcassonneAddKnightFragmentName">Knighting...</string>
+        <string name="carcassonneAddMonkFragmentName">Monking...</string>
+
+        <!-- Add User Action Dialog -->
+        <string name="carcassonneAddUserActionDialogTitle">Select Action...</string>
+
+</resources>

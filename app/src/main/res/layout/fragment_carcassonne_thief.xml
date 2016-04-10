@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+        >
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agricolaSubItemLabel"
+            android:id="@+id/carcassonneSubThiefSpacesButton"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:id="@+id/carcassonneThiefValue"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/carcassonneSubThiefSpacesButton"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agricolaAddItemLabel"
+            android:id="@+id/carcassonneAddThiefSpaceButton"
+            android:layout_toEndOf="@+id/carcassonneThiefValue"/>
+        <TextView
+            android:id="@+id/agricolaFieldResourceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/carcassonneThiefSpacesName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/carcassonneAddThiefSpaceButton"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:id="@+id/carcassonneThiefScore"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/carcassonneThiefHasLake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/carcassonneThiefHasLakeLabel"
+            android:layout_toEndOf="@+id/carcassonneThiefHasLake"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/carcassonneThiefEndGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:enabled="true"
+            android:focusable="true"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/carcassonneEndGameLabel"
+            android:layout_toEndOf="@+id/carcassonneThiefEndGame"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/carcassonneSubmitThiefButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/carcassonneThiefSubmitButtonLabel"/>
+
+    </LinearLayout>
+
+</LinearLayout>

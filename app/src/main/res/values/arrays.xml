@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="carcassonneMeepleOptions">
+        <item>Knight</item>
+        <item>Monk</item>
+        <item>Thief</item>
+        <item>Farmer</item>
+    </array>
+</resources>
